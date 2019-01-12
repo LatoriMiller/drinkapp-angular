@@ -8,9 +8,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
+import { AboutComponent } from './about/about.component';
+import { FavComponent } from './fav/fav.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { NavComponent } from './nav/nav.component';
+import { MenuComponent } from './menu/menu.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    FavComponent,
+    GalleryComponent,
+    NavComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
